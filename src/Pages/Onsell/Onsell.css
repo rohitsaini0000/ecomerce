@@ -1,0 +1,118 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ .main-hadder {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .maindiv1 {
+        align-items: center;
+        height: 450px;
+        width: 500px;
+        border: 2px solid rgba(0, 0, 0, 0.445);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .maindiv2 {
+        align-items: center;
+        height: 420px;
+        width: 400px;
+        border: 2px solid rgba(0, 0, 0, 0.445);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .div1 {
+        display: flex;
+        /* justify-content: baseline; */
+        gap: 20px;
+    }
+
+    .div2 {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .div1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .classh1 {
+        margin-top: 20px;
+    }
+
+    .but {
+        display: flex;
+        align-items: center;
+    }
+
+    .but2 {
+        height: 30px;
+        width: 80px;
+        border-radius: 20px;
+        border: none;
+        margin-left: 190px;
+    }
+
+    @media (max-width:525px) {
+        .maindiv1 {
+            height: 450px;
+            width: 350px;
+        }
+        .maindiv2{
+            height: 450px;
+            width: 350px;
+        }
+        .but2 {
+            margin-left: 60px;
+        }
+    }
+    .h-tags{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .h-t{
+        padding-bottom: 20px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.479);
+    }
+    .classh3{
+        color: rgba(0, 0, 0, 0.575);
+    }
+    .clas1{
+        color: rgba(255, 0, 0, 0.603);
+    }
+    .h-tagsbutton{
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        border: none;
+    }
+    .h-tagsbutton1{
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+    .h-tagsbutton2{
+        height: 30px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+

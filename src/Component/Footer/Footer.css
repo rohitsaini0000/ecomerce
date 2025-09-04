@@ -1,0 +1,141 @@
+.Home-footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 380px 380px 380px;
+  grid-template-rows: 300px;
+  gap: 30px;
+  justify-content: center;
+}
+.HF-carddatils{
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20PX;
+}
+@media (max-width:1224px) {
+  .Home-footer{
+   grid-template-columns:  380px 380px;
+   grid-template-rows: 270px 270px;
+   gap: 30px;
+  }
+}
+@media (max-width:850px) {
+  .Home-footer{
+   grid-template-columns:  500px ;
+   grid-template-rows: 270px 270px 270px;
+   gap: 30px;
+  }
+}
+@media (max-width:518px) {
+  .Home-footer{
+   grid-template-columns:  370px ;
+   grid-template-rows: 300px 300px 300px;
+   gap: 30px;
+  }
+}
+.Home-FBottem{
+  height: 250px;
+  width: 100%;
+  background-color: #F0F0F0;
+  position: relative;
+  margin-top: 100px;
+  padding-top: 120px;
+}
+@media (max-width:869px) {
+  .Home-FBottem{
+  height: auto;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  
+}
+}
+.footernameplat{
+  position: absolute;
+  height: 150px;
+  width: 800px;
+  background-color: black;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left:0px;
+  right: 0px;
+  top: -60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.footernameplat h1{
+ margin-top: auto;
+ margin-bottom: auto;
+ text-align: center;
+}
+.HF-Button{
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+.HF-ButtonA,.HF-ButtonB{
+  height: 30px;
+  width: 210px;
+  border-radius: 15px;
+  text-align: center;
+}
+.Home-f{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+.HFootrdiv1 li{
+text-align: left;
+color: rgba(0, 0, 0, 0.308);
+margin-top: 10px;
+}
+@media (max-width:804px) {
+  .footernameplat{
+   position: absolute;
+   height: 150px;
+   width: 450px;
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content: center;
+   color: white;
+   margin-left: auto;
+   margin-right:auto ;
+   
+  } 
+  .HF-ButtonA,.HF-ButtonB{
+   height: 30px;
+   width: 180px;
+   border-radius: 15px;
+   text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footernameplat {
+    flex-direction: column;
+    padding: 15px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footernameplat h1 {
+    font-size: 1.3rem;
+  }
+
+  .HF-Button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;  
+    gap: 10px;               
+  }
+
+  .HF-ButtonA, .HF-ButtonB {
+    width: 180px;
+  }
+}
+
